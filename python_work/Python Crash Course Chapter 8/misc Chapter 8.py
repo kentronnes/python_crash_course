@@ -114,11 +114,30 @@
 # 	formatted_name = get_formatted_name(f_name, l_name)
 # 	print("\nHello, " + formatted_name + "!")	
 
-def greet_users(names):
-	"""Print a simple greeting to each user in the list."""
-	for name in names:
-		msg = "Hello, " + name.title() + "!"
-		print(msg)
+# def greet_users(names):
+# 	"""Print a simple greeting to each user in the list."""
+# 	for name in names:
+# 		msg = "Hello, " + name.title() + "!"
+# 		print(msg)
 
-usernames = ['hannah', 'ty', 'margot']
-greet_users(usernames)		
+# usernames = ['hannah', 'ty', 'margot']
+# greet_users(usernames)		
+
+# Start with some designs that need to be printed.
+unprinted_designs = ['iphone case','robot pendant', 'dodecahedron']
+completed_models = []
+
+
+# Simulate printing each design, until none are left.
+# Move each design to completed models after printing.
+while unprinted_designs:
+	current_design = unprinted_designs.pop()
+
+	# Simulate creating a 3D print from the design.
+	print("Printing model: " + current_design)
+	completed_models.append(current_design)
+
+# Display all completed models.
+print("\nThe following models have been printed:")
+for completed_model in completed_models:
+	print(completed_model)	
