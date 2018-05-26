@@ -1,0 +1,15 @@
+favorite_numbers = {
+	'Ken' : 21,
+	'Sarah' : 22,
+	'Jim' : 15,
+	'Linda' : 9,
+	'Buster' : 28
+}
+
+# print("Ken's favorite number is " + str(favorite_numbers['Ken']) + ".")
+# print("\nSarah's favorite numner is " + str(favorite_numbers['Sarah']) + ".")
+# print("\nJim's favorite number is " + str(favorite_numbers['Jim']) + ".") 
+
+for key, value in favorite_numbers.items():
+    print("\n" + key + "'s favorite number is " + str(value) + ".")
+
