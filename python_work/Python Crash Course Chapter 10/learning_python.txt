@@ -1,0 +1,3 @@
+In Python you can create classes to describe anything
+In Python you can manipulate strings
+In Python you can create lists and dictionaries
